@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import Poster from "../../public/img/bg-video-poster.jpg";
+// import Poster from "../../public/img/bg-video-poster.jpg";
 import NavContext from "../context/navContext";
 import AnimationText from "./AnimationText";
 const Home = ({ leftImg, video, leftImgSrc }) => {
