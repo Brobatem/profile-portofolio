@@ -88,7 +88,7 @@ const About = () => {
               </ul>
             </div>
             <div className="col-12 resume-btn-container">
-              <a href="https://drive.google.com/uc?export=downIoad&id=1Q24yFwRzhVRVaTe2Aa6JMgeWqMd5NZ08" className="btn btn-resume" target="_blank">
+              <a href="https://drive.google.com/uc?export=downIoad&id=1Q24yFwRzhVRVaTe2Aa6JMgeWqMd5NZ08" className="btn btn-resume" target="_blank" rel="noreferrer">
                 <span>
                   <i className="fa fa-download" />
                   download my cv

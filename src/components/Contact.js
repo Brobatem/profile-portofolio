@@ -159,7 +159,7 @@ const Contact = () => {
                   <div className="form-group col-xl-12">
                     {" "}
                     <i className="fa fa-comments prefix" />
-                    <textarea id="comment" name="message" onChange={(e) => onChange(e)} value={message} className="form-control" placeholder="YOUR MESSAGE" required="" defaultValue={""} />{" "}
+                    <textarea id="comment" name="message" onChange={(e) => onChange(e)} value={message} className="form-control" placeholder="YOUR MESSAGE" required="" />{" "}
                   </div>
                 </div>
 

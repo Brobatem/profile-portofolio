@@ -1,7 +1,7 @@
 {
   "name": "istanbul-react",
   "version": "0.1.0",
-  "homepage": "https://github.com/Brobatem/profile-portofolio",
+  "homepage": "https://Brobatem.github.io/profile-portofolio",
   "private": true,
   "scripts": {
     "dev": "next dev",

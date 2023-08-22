@@ -8,12 +8,12 @@ const Home = ({ leftImg, video, leftImgSrc }) => {
     <section id="home" className={`${nav === "home" ? "active" : ""}`}>
       {/* Text Rotator Starts */}
       <div className="main-text-container">
-        {video && (
+        {/* {video && (
           <video className="bg-video" autoPlay loop muted poster={Poster}>
             <source src={require("../../public/img/video.mp4")} type="video/mp4" />
             <source src={require("../../public/img/video.mp4")} type="video/ogg" />
           </video>
-        )}
+        )} */}
         {leftImg && <img className="leftimagepicture" src={`${leftImgSrc ? leftImgSrc : "img/background.jpg"}`} alt="" />}
         <div className="main-text" id="selector">
           <h3>Hi there !</h3>

@@ -2,5 +2,14 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/api/hello": "pages/api/hello.js",
+  "/blog-post": "pages/blog-post.js",
+  "/blog": "pages/blog.js",
+  "/demo": "pages/demo.js",
+  "/index-image-overlay": "pages/index-image-overlay.js",
+  "/index-left-image-dark": "pages/index-left-image-dark.js",
+  "/index-left-image-light": "pages/index-left-image-light.js",
+  "/index-video-dark": "pages/index-video-dark.js",
+  "/index-video-light": "pages/index-video-light.js",
   "/": "pages/index.js"
 }
