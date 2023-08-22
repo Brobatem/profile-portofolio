@@ -15,10 +15,10 @@ function MyApp({ Component, pageProps }) {
         <link type="text/css" media="all" href="css/bootstrap.min.css" rel="stylesheet" />
         <link type="text/css" media="all" href="css/jquery.animatedheadline.css" rel="stylesheet" />
         <link type="text/css" media="all" href="css/font-awesome.min.css" rel="stylesheet" />
-        {/* <link type="text/css" media="all" href="/public/css/plugins.css" rel="stylesheet" /> */}
+        <link type="text/css" media="all" href="/public/css/plugins.css" rel="stylesheet" />
         <link type="text/css" media="all" href="css/style.css" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
-        <title>Istanbul - Personal Portfolio</title>
+        <title>Rosyid - Personal Portfolio</title>
       </Head>
       <NavState>
         <ColorState>
