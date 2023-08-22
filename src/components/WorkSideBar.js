@@ -13,45 +13,25 @@ export const VideoSideBar = ({ playing }) => {
     }
   }, [playing]);
 
-  return (
-    <video
-      ref={vidRef}
-      src="img/projects/video.mp4"
-      id="video"
-      className="responsive-video"
-      controls="controls"
-      autoPlay={false}
-      poster="img/projects/project-6.jpg"
-    />
-  );
+  return <video ref={vidRef} src="img/projects/video.mp4" id="video" className="responsive-video" controls="controls" autoPlay={false} poster="img/projects/project-6.jpg" />;
 };
 export const YoutubeSideBar = ({ playing }) => {
   useEffect(() => {
     const youtubeVideo = document.querySelector(".youtube-video");
     if (playing == null) {
-      youtubeVideo.contentWindow.postMessage(
-        '{"event":"command","func":"' + "pauseVideo" + '","args":""}',
-        "*"
-      );
+      youtubeVideo.contentWindow.postMessage('{"event":"command","func":"' + "pauseVideo" + '","args":""}', "*");
     }
   }, [playing]);
   return (
     <div className="videocontainer">
-      <iframe
-        className="youtube-video"
-        src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer"
-      />
+      <iframe className="youtube-video" src="https://www.youtube.com/embed/7e90gBu4pas?enablejsapi=1&version=3&playerapiid=ytplayer" />
     </div>
   );
 };
 
 export const SliderSideBar = () => {
   return (
-    <div
-      id="slider"
-      className="carousel slide portfolio-slider"
-      data-ride="carousel"
-    >
+    <div id="slider" className="carousel slide portfolio-slider" data-ride="carousel">
       {/* The slideshow */}
       <Carousel
         className="carousel-inner"

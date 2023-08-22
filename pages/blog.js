@@ -23,23 +23,15 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <img
-                      className="responsive-img"
-                      src="img/blog/blog-post-1.jpg"
-                      alt=""
-                    />
+                    <Image className="responsive-img" src="img/blog/blog-post-1.jpg" alt="" />
                   </a>
                 </figure>
                 {/* Figure Ends */}
                 {/* Excerpt Starts */}
                 <div className="blog-excerpt">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    blandit massa vel mauris Lorem ipsum dolor sit amet Lorem
-                    ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur
-                    adipiscing elit. Sed blandit massa vel mauris Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Sed blandit
-                    massa vel mauris ...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris Lorem ipsum dolor sit amet Lorem ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur adipiscing elit. Sed blandit massa vel
+                    mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris ...
                   </p>
                   <Link href="/blog-post">
                     <a className="btn readmore">
@@ -55,15 +47,13 @@ const blog = () => {
                       <i className="fa fa-calendar" /> 9 January 2017
                     </span>
                     <span>
-                      <i className="fa fa-commenting" />{" "}
-                      <a href="blog-post.html">18</a>
+                      <i className="fa fa-commenting" /> <a href="blog-post.html">18</a>
                     </span>
                     <span>
                       <i className="fa fa-tags" /> js, php, html
                     </span>
                     <span className="permalink">
-                      <i className="fa fa-link" />{" "}
-                      <a href="blog-post.html">permalink</a>
+                      <i className="fa fa-link" /> <a href="blog-post.html">permalink</a>
                     </span>
                   </div>
                   {/* Meta Ends */}
@@ -79,23 +69,15 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <img
-                      className="responsive-img"
-                      src="img/blog/blog-post-2.jpg"
-                      alt=""
-                    />
+                    <Image className="responsive-img" src="img/blog/blog-post-2.jpg" alt="" />
                   </a>
                 </figure>
                 {/* Figure Ends */}
                 {/* Excerpt Starts */}
                 <div className="blog-excerpt">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    blandit massa vel mauris Lorem ipsum dolor sit amet Lorem
-                    ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur
-                    adipiscing elit. Sed blandit massa vel mauris Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Sed blandit
-                    massa vel mauris ...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris Lorem ipsum dolor sit amet Lorem ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur adipiscing elit. Sed blandit massa vel
+                    mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris ...
                   </p>
                   <Link href="/blog-post">
                     <a className="btn readmore">
@@ -111,15 +93,13 @@ const blog = () => {
                       <i className="fa fa-calendar" /> 9 January 2017
                     </span>
                     <span>
-                      <i className="fa fa-commenting" />{" "}
-                      <a href="blog-post.html">18</a>
+                      <i className="fa fa-commenting" /> <a href="blog-post.html">18</a>
                     </span>
                     <span>
                       <i className="fa fa-tags" /> js, php, html
                     </span>
                     <span className="permalink">
-                      <i className="fa fa-link" />{" "}
-                      <a href="blog-post.html">permalink</a>
+                      <i className="fa fa-link" /> <a href="blog-post.html">permalink</a>
                     </span>
                   </div>
                   {/* Meta Ends */}
@@ -135,23 +115,15 @@ const blog = () => {
                 {/* Figure Starts */}
                 <figure className="blog-figure">
                   <a href="blog-post.html">
-                    <img
-                      className="responsive-img"
-                      src="img/blog/blog-post-3.jpg"
-                      alt=""
-                    />
+                    <Image className="responsive-img" src="img/blog/blog-post-3.jpg" alt="" />
                   </a>
                 </figure>
                 {/* Figure Ends */}
                 {/* Excerpt Starts */}
                 <div className="blog-excerpt">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    blandit massa vel mauris Lorem ipsum dolor sit amet Lorem
-                    ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur
-                    adipiscing elit. Sed blandit massa vel mauris Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit. Sed blandit
-                    massa vel mauris ...
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris Lorem ipsum dolor sit amet Lorem ipsum dol sit amet Lorem ipsum dol or sit amet, consectetur adipiscing elit. Sed blandit massa vel
+                    mauris Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit massa vel mauris ...
                   </p>
                   <Link href="/blog-post">
                     <a className="btn readmore">
@@ -167,15 +139,13 @@ const blog = () => {
                       <i className="fa fa-calendar" /> 9 January 2017
                     </span>
                     <span>
-                      <i className="fa fa-commenting" />{" "}
-                      <a href="blog-post.html">18</a>
+                      <i className="fa fa-commenting" /> <a href="blog-post.html">18</a>
                     </span>
                     <span>
                       <i className="fa fa-tags" /> js, php, html
                     </span>
                     <span className="permalink">
-                      <i className="fa fa-link" />{" "}
-                      <a href="blog-post.html">permalink</a>
+                      <i className="fa fa-link" /> <a href="blog-post.html">permalink</a>
                     </span>
                   </div>
                   {/* Meta Ends */}
