@@ -25,7 +25,7 @@ const Layouts = ({ children, bodyCls, extraPage, light }) => {
         <link type="text/css" media="all" href={`css/skins/${color}.css`} rel="stylesheet" /> <title>Rosyid - Personal Portfolio</title>
       </Head>
       <div className="page animated" style={{ animationDuration: "500ms" }}>
-        {/* <Switcher /> */}
+        <Switcher />
         {/* Header Starts */}
         {!extraPage && <Header light={light} />}
         {/* Main Content Starts */}{" "}
